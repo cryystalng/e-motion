@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style_homepage.css">
+  <title>Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="min-width:50rem">
+<!-- navigation bar -->
+
+<nav class="navbar navbar-expand-lg navbar-light mx-auto" style="min-width:50rem; background-color:rgba(250,250,250,0.8)">
+ <img class="navbar-brand" style="margin-left:2rem; max-height: 3rem;" src="e-motion logo.png" alt="E-motion"
+ href="homepage.html"></a>
+
+ <button class="navbar-toggler" type="button"
+ data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   
+  <ul class="navbar-nav mr-auto nav justify-content-center">
+   <div class="d-flex float-lg-right" id="navbar">
+    <li class="nav-item active float-lg-right" >
+       <a class="nav-link " style="margin-right: 2rem;margin-left: 2rem;color:#0D2C54;font-family:'Barlow', sans-serif;" href="#">About</a>
+     </li>
+     <li class="nav-item float-lg-right">
+       <a class="nav-link" style="margin-right: 2rem;margin-left: 2rem;color:#0D2C54;font-family:'Barlow', sans-serif;" href="events.html">E-vents</a>
+     </li>
+     </li>
+     <li class="nav-item float-lg-right">
+       <a class="nav-link" style="margin-right: 2rem;margin-left: 2rem;hover-overlay ripple shadow-1-strong rounded" href="#">Log-in</a>
+     </li>
+     <li class="nav-item float-lg-right">
+     <button class="btn btn-warning my-1 my-lg-0" type="submit" style="padding-right: 2rem;padding-left: 2rem;font-weight: bolder;font-family:'Barlow', sans-serif;" >Sign-Up</button>
+    </li>
+   </ul>
+
+   </form>
+ </div>
+</div>
+
+</nav>
+
+
+<div class="coverphoto">
+
+ <div class="card" id="form-container">
+ 
+ <h1 id="form-title">Find the special ingredient for remote event</h1>
+ <h3 id="form-text">We connect you to the best remote event facilitators for any occasion you can think of.</h2>
+  
+  <div class="form-group card-title">
+    <input type="Search Event" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="font-family:'Barlow', sans-serif;color:grey;" placeholder ="Search Event">
+   </div>
+  <div class="card-container">
+   <div class="form-group card-title"> 
+    <div class="col">
+     <div class="card">
+     <select class="custom-select my-2 mr-sm-2" id="inlineFormCustomSelectPref"  style="font-family:'Barlow', sans-serif;color:grey;background-color:white">
+       <option selected>Category of Event</option>
+       <option value="1">Wines and cocktail</option>
+       <option value="2">Arts and Crafts</option>
+       <option value="3">Games</option>
+       <option value="4">Entertainment</option>
+     </select>
+   </div>
+   </div>
+   </div>
+
+   <div class="card-container">
+    <div class="form-group card-title"> 
+     <div class="col">
+      <div class="card">
+      <select class="custom-select my-2 mr-sm-2" id="inlineFormCustomSelectPref"  style="font-family:'Barlow', sans-serif;color:grey;background-color:white">
+        <option selected>Size of the organization</option>
+        <option value="1">1-10</option>
+        <option value="2">10-50</option>
+        <option value="3">50-100</option>
+        <option value="4">>100</option>
+      </select>
+    </div>
+    </div>
+    </div>
+ <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2" >
+  <div class="card-container d-flex">
+<div class="form-group card-title"> 
+ <div class="col-6">
+  <div class="card" style="width: 17.5rem;">
+  <select class="custom-select my-2 mr-sm-2" id="inlineFormCustomSelectPref" id="select" style="font-family:'Barlow', sans-serif;color:grey;background-color:white">
+    <option selected>Date</option>
+    <option value="1">Today</option>
+    <option value="2">This Week</option>
+    <option value="3">This Month</option>
+  </select>
+</div>
+</div>
+</div>
+
+<div class="card-container d-flex" style="margin-left: 1rem;">
+<div class="form-group card-title"> 
+ <div class="col-6">
+  <div class="card" style="width: 17.5rem;">
+  <select class="custom-select my-2 mr-sm-2" id="inlineFormCustomSelectPref" style="font-family:'Barlow', sans-serif;color:grey;background-color:white;">
+    <option selected>Time</option>
+    <option value="1">09:00-12:00</option>
+    <option value="2">12:00-15:00</option>
+    <option value="3">15:00-18:00</option>
+    <option value="4">18:00-21:00</option>
+  </select>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+  <button type="search" class="btn btn-warning mx-auto" id="buttonsearch">Search</button>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+
+ 
+ <div class="container1">
+ <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mx-auto mr-3 ml-3 mt-n1 position-relative" id="container2">
+  <div class="card col mx-auto" id="cardcol">
+  <div class="card-body">
+    <h5 class="card-title"id="card-title">  Best online event hosts</h5>
+    <h6 class="card-text" id="card-text">E-vent hosts are constantly monitored. You can be sure that nothing stands in the way of having an awesome event!</h6>
+  </div>
+ </div>
+
+ <div class="card col mx-auto"  id="cardcol">
+  <div class="card-body">
+   <h5 class="card-title" id="card-title">Physically in a virtual world</h5>
+   <h6 class="card-text" id="card-text">Give a touch of feeling physically together by experiencing the same among an event.</h6>
+ </div>
+</div>
+
+<div class="card col mx-auto"  id="cardcol">
+ <div class="card-body">
+  <h5 class="card-title" id="card-title">Work-life balance</h5>
+  <h6 class="card-text"id="card-text">Provide a break out from the home office madness to enhance the work-life balance among your team.</h6>
+</div>
+</div>
+
+<div class="card col mx-auto"  id="cardcol">
+<div class="card-body">
+ <h5 class="card-title"id="card-title">Enhance team spirit</h5>
+ <h6 class="card-text" id="card-text">Enhance the strength of your team by providing them with a collaborative experience.</h6>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div id="container3">
+</div>
+</div>
+
+<!-- hero's section -->
+<div class="herosection">
+  <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 mx-auto">
+  <div class="col-lg-6 col-md-6 col-6 float-lg-left">
+    <div id="herosection-container">
+  <h3 class="herosection-text" style="min-width:40rem">Best E-Vent for your team</h3>
+  <button id="hero-sectionbutton" type="button" class="btn btn-warning" style="font-weight: bold; padding: 16px; padding-left:16px; padding-right:16px; color:#222831; cursor:pointer">Search for E-vents</button>
+  </div>
+ </div>
+</div>
+</div>
+
+
+ <!-- container -->
+   <div class="container4" style="margin-bottom:-2rem">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mx-auto">
+     <div class="col-lg-6 col-md-12 col-12" style="padding:4px">
+    <!-- how to make the image not shrink -->
+      <div class="card bg-dark text-white" style="border-radius: -0px; border: 0px;min-width:30rem;">
+       <img class="card-img"src="cookrecipe.jpg" style="height:22rem;background-size:cover"alt="cookTogetherImg">
+    <div class="card-img-overlay">
+     <h3 class="card-title" id="card-title1">Cook <span style="color:#FEC200">Together</span></h3>
+     </div>
+     </div>
+     </div>
+    
+    <div class="col-lg-3 col-md-6 col-6" style="padding:4px">
+     <div class="card bg-dark text-white d-flex" style="border-radius: -0px; border: 0px;">
+     <img
+      class="card-img" src="e-drink.png" alt="edrinkImg" style="height:22rem">
+     <div class="card-img-overlay">
+      <h3 style="font-weight:bolder;" class="card-title align-self-end" id="card-title1" >E-<span style="color:#FEC200">drink</span></h3>
+      </div>
+      </div>
+      </div>
+    
+     <div class="col-lg-3 col-md-6 col-6" style="padding:4px">
+      <div class="card bg-dark text-white" style="border-radius: -0px; border: 0px;">
+      <img
+      class="card-img" src="e-art.png" width="auto" alt="eartImg" style="height:22rem;">
+      <div class="card-img-overlay">
+       <h3 class="card-title" style="font-weight:bolder;"id="card-title1">E-<span style="color:#FEC200">art</span></h3>
+       </div>
+       </div>
+       </div>
+      </div>
+     </div>
+      <!-- new container -->
+      <div class="container4" style="margin-bottom: 2rem;">
+       <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 mx-auto">
+        <div class="col-lg-6 col-md-6 col-6" style="padding:4px">
+       <!-- how to make the image not shrink -->
+         <div class="card bg-dark text-white" style="border-radius: -0px; border: 0px;min-width:30rem;">
+          <img class="card-img"src="for-fun.png" style="height:22rem;min-width:auto;background-size:cover"alt="forfunImg">
+       <div class="card-img-overlay">
+        <h3 class="card-title" id="card-title1">For<span style="color:#FEC200"> Fun</span></h3>
+        </div>
+        </div>
+        </div>
+    
+       
+       <div class="col-lg-6 col-md-6 col-6" style="padding:4px">
+        <div class="card bg-dark text-white d-flex" style="border-radius: -0px; border: 0px;">
+        <img
+         class="card-img" src="workout-tgt.png" alt="workouttgtImg" style="height:22rem;min-width:auto;">
+        <div class="card-img-overlay">
+         <h3 style="font-weight:bolder;" class="card-title align-self-end" id="card-title1" line-height: 0.2rem;">Workout<span style="color:#FEC200;line-height: 0.2rem;"> Together</span></h3>
+         </div>
+         </div>
+        </div>
+         </div>
+        </div>
+       </div>
+<!-- Hero's section -->
+       <div class="herosection2-container">
+       <div class="herosection2">
+        <div id="hero-title">
+        <h2 style="font-weight: bolder;">Arrange the best event for your team.</h2>
+       </div>
+       <br>
+       <br>
+        <div class="container5">
+         <div class="row row-cols-3 row-cols-md-3 row-cols-lg-3 mx-auto mr-3 ml-3 mt-n1 position-relative" id="container5">
+          <div class="card col" id="cardcol2">
+          <div class="card-body2">
+           <div class="Icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill=white class="bi bi-search mx-auto" viewBox="0 0 16 16">
+             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+           </svg>
+           </div>
+           <br>
+            <h5 class="card-title"id="card-title" style="text-transform:none;">Search It</h5>
+            <h6 class="card-text" id="card-text">Search for professional and engaging E-vents in one click.</h6>
+          </div>
+         </div>
+        
+         <div class="card col"  id="cardcol2">
+          <div class="card-body2">
+           <div class="Icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill=white class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+             <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+           </svg>
+           </div>
+           <br>
+           <h5 class="card-title" id="card-title" style="text-transform:none;">Book It</h5>
+           <h6 class="card-text" id="card-text">Book and comminucate with the E-Vent host and book it with ease.</h6>
+         </div>
+        </div>
+        
+        <div class="card col"  id="cardcol2">
+         <div class="card-body2">
+          <div class="Icon">
+           <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill=white class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
+          </svg>
+          </div>
+          <br>
+          <h5 class="card-title"id="card-title" style="text-transform:none;">Love It</h5>
+          <h6 class="card-text"id="card-text">You are all set, enjoy it with your team! Just enjoy yourself.</h6>
+        </div>
+        </div>
+       </div>
+      </div>
+     
+
+
+      <div class="emailinput">
+
+       <h3 id="email-title">Do not miss the news about online events.</h3>
+       <h4 id="email-body">Subscribe to our monthly newsletter and stay up to date with the latest offers, get inspired and share your best adventures with us.</h4>
+       <div>
+        <br>
+      <form class="form-inline">
+       <div style="display: flex;flex-direction: row ;justify-content:center;">
+       <div class="form-group mx-sm-1 mb-1">
+         <input type="password" class="form-control" id="inputPassword2" placeholder="Email Address">
+       </div>
+       <button type="submit" class="btn btn-warning mb-2" id="sub-button">Subscribe</button>
+      </div>
+     </form>
+    </div>
+    </div>
+
+</body>
+</html>
